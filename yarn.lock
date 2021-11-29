@@ -2463,7 +2463,7 @@ __metadata:
     ufo: ^0.7.9
     unbuild: latest
     unplugin: ^0.2.21
-    unplugin-vue2-script-setup: 0.6.17
+    unplugin-vue2-script-setup: 0.7.1
     vite: ^2.6.14
     vite-plugin-vue2: ^1.9.0
     vue: ^2
@@ -4695,19 +4695,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/compiler-core@npm:3.2.22":
-  version: 3.2.22
-  resolution: "@vue/compiler-core@npm:3.2.22"
-  dependencies:
-    "@babel/parser": ^7.15.0
-    "@vue/shared": 3.2.22
-    estree-walker: ^2.0.2
-    source-map: ^0.6.1
-  checksum: 9a0d796c8533b921ee43ea0c5de73eafdec5a42d9cd1cff8badb0335047daf4392bb933b8e128b18ac29f550c17ec744d153d43749e07f0cd4ae6e7ca8316d59
-  languageName: node
-  linkType: hard
-
-"@vue/compiler-core@npm:3.2.23":
+"@vue/compiler-core@npm:3.2.23, @vue/compiler-core@npm:^3.2.23":
   version: 3.2.23
   resolution: "@vue/compiler-core@npm:3.2.23"
   dependencies:
@@ -4804,7 +4792,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/ref-transform@npm:3.2.23":
+"@vue/ref-transform@npm:3.2.23, @vue/ref-transform@npm:^3.2.23":
   version: 3.2.23
   resolution: "@vue/ref-transform@npm:3.2.23"
   dependencies:
@@ -4814,19 +4802,6 @@ __metadata:
     estree-walker: ^2.0.2
     magic-string: ^0.25.7
   checksum: 8475c23f1a4cc0b37d457762e27ff9f3ed5fb1883a20cc05f746b9410d16cb0eb0eef942cd648edf1ee51595de35558326ce4894273e49f0fec62850d2adb673
-  languageName: node
-  linkType: hard
-
-"@vue/ref-transform@npm:^3.2.21":
-  version: 3.2.22
-  resolution: "@vue/ref-transform@npm:3.2.22"
-  dependencies:
-    "@babel/parser": ^7.15.0
-    "@vue/compiler-core": 3.2.22
-    "@vue/shared": 3.2.22
-    estree-walker: ^2.0.2
-    magic-string: ^0.25.7
-  checksum: 018154299d78bd2cd35cd79f01e98dee660403e6467912a1021eaba63a4ca8cb658547c9a152863e9ee1c1e538b1d77dab10b2560a450035707a03fa3d8633b1
   languageName: node
   linkType: hard
 
@@ -4860,13 +4835,6 @@ __metadata:
   peerDependencies:
     vue: 3.2.23
   checksum: d892fee49187a82e04428d2b30daf9eecf8276144fbca83461b4199a7bf153fe4ad80b3ec5a154791bc2d788cb9b0cfa1a1c1f48964e9564e34af693f85e3a6e
-  languageName: node
-  linkType: hard
-
-"@vue/shared@npm:3.2.22, @vue/shared@npm:^3.2.21":
-  version: 3.2.22
-  resolution: "@vue/shared@npm:3.2.22"
-  checksum: 91e562a5b2543313de63dab40ebad41f1ae46fbf860d1f09a019ebc02b11c124952b603d4b774ebb8803f94f52d670a75c4677be30ecf51cea7e97abfcb7304b
   languageName: node
   linkType: hard
 
@@ -21073,9 +21041,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unplugin-vue2-script-setup@npm:0.6.17":
-  version: 0.6.17
-  resolution: "unplugin-vue2-script-setup@npm:0.6.17"
+"unplugin-vue2-script-setup@npm:0.7.1":
+  version: 0.7.1
+  resolution: "unplugin-vue2-script-setup@npm:0.7.1"
   dependencies:
     "@antfu/utils": ^0.3.0
     "@babel/core": ^7.16.0
@@ -21084,8 +21052,9 @@ __metadata:
     "@babel/traverse": ^7.16.3
     "@babel/types": ^7.16.0
     "@rollup/pluginutils": ^4.1.1
-    "@vue/ref-transform": ^3.2.21
-    "@vue/shared": ^3.2.21
+    "@vue/compiler-core": ^3.2.23
+    "@vue/ref-transform": ^3.2.23
+    "@vue/shared": ^3.2.23
     defu: ^5.0.0
     htmlparser2: 5.0.1
     magic-string: ^0.25.7
@@ -21095,7 +21064,7 @@ __metadata:
   peerDependenciesMeta:
     pug:
       optional: true
-  checksum: b539da305334479d5af15be4d0a4feedd81138fedccb584afdd2ef5de39fb377dba73540a6f22ea1474d193969c86c17611bf336b474bbdc1485c647d32dc8bf
+  checksum: 847eea821f87aa3540e318d651febbc030c4c223e64b3e6b74d9333741dbe6c0b364373ad0a37755aafbfcb307bd92b4b63bab781d6a78377ccb23d0cea8c81f
   languageName: node
   linkType: hard
 
